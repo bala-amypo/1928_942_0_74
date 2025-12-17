@@ -1,7 +1,7 @@
 package com.example.demo.entity;
 
 import jakarta.persistence.Entity;
-import jakarta.persistance.GeneratedValue;\
+import jakarta.persistance.GeneratedValue;
 import jakarta.persistance.GenerationType;
 import jakarta.persistance.Id;
 @Entity
@@ -35,7 +35,7 @@ public long getId(){
  public float getEmail(){
     return cgpa;
  }
- public void setcgpa(String cgpa){
+ public void setCgpa(String cgpa){
     this.cgpa=cgpa;
  }
  public Stuentity(Long id,String name, String email,float cgpa){
